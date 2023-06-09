@@ -125,11 +125,12 @@ hr{
 
 .attribution{
     position: absolute;
-    top: 95%;
+    bottom: unset;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     opacity: 0.5;
+    margin-top: 2em;
 }
 
 h1:hover{
@@ -149,10 +150,10 @@ h1:hover{
 
 @media (max-width: 400px){
     .body{
-        height: 90vh;
+        height: 100vh;
     }
 
     .attribution{
-        top: 90%;
+        top: 100%;
     }
 }
